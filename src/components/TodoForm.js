@@ -33,7 +33,7 @@ function TodoForm(props) {
                 Add Todo
             </button>
         </form>
-    )
+    );
 }
 
 export default TodoForm;
