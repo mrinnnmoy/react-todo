@@ -7,7 +7,7 @@
 }
 
 body {
-    max-height: 400px;
+    max-height: 500px;
     background: linear-gradient(90deg,
             rgba(48, 16, 255, 1) 0%,
             rgba(100, 115, 255, 1) 100%);
@@ -132,4 +132,41 @@ h1 {
 
 .edit-icon {
     color: #fff;
+}
+
+/* Media Breakpoints */
+@media screen and (max-width: 480px) {
+    body {
+        max-height: 450px;
+    }
+
+    .todo-app {
+        width: 350px;
+        min-height: 430px;
+        margin: 50px auto;
+    }
+
+    h1 {
+        margin: 25px 0;
+        font-size: 15px;
+    }
+
+    .todo-input {
+        padding: 14px 32px 14px 16px;
+        border-radius: 4px;
+        outline: none;
+        width: 220px;
+    }
+
+    .todo-button {
+        padding: 10px;
+        border-radius: 4px;
+        margin-left: 10px;
+    }
+
+    .todo-button.edit {
+        padding: 10px;
+        border-radius: 4px;
+        margin-left: 18px;
+    }
 }
